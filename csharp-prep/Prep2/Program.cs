@@ -10,27 +10,27 @@ class Program
         
         if (percent >= 90)
         {
-            Console.WriteLine("Your graede is an A");
+            Console.WriteLine("Your grade is an A");
         }
         
         else if (percent >= 80)
         {
-            Console.WriteLine("Your graede is a B");
+            Console.WriteLine("Your grade is a B");
         }
 
         else if (percent >= 70)
         {
-            Console.WriteLine("Your graede is a C");
+            Console.WriteLine("Your grade is a C");
         }
 
         else if (percent >= 60)
         {
-            Console.WriteLine("Your graede is a D");
+            Console.WriteLine("Your grade is a D");
         }
 
         else if (percent < 60)
         {
-            Console.WriteLine("Your graede is an F");
+            Console.WriteLine("Your grade is an F");
         }
     }
 }

@@ -26,8 +26,18 @@ class Program
             {
                 Console.WriteLine("You guessed it correctly!");
             }
-
+{
+            "name": "Foundation 4 (Exercise)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-final-Foundation4",
+            "program": "${workspaceFolder}/final/Foundation4/bin/Debug/net7.0/Foundation4.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/final/Foundation4",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
         }
     }
-    
 }
